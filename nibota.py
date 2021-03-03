@@ -26,4 +26,4 @@ async def on_message(message: discord.Message):
             return
         source = discord.PCMVolumeTransformer(discord.FFmpegPCMAudio("pekora_shout.mp3"), volume = 5.0)
         message.guild.voice_client.play(source)
-client.run("ODE2MTQxMzI1NTI2MTA2MTMy.YD2o1w.vOoK88UxBHAJU8pmn9_n9CosXmY")
+client.run("816141325526106132")
